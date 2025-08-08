@@ -15,5 +15,5 @@ def animate(i):
     plt.cla()
     plt.plot(x, y, marker="o")
 
-ani = FuncAnimation(plt.gcf(), animate, interval=1000)  # Keep in variable
-plt.show()  # Only ends after animation completes
+ani = FuncAnimation(plt.gcf(), animate, interval=1000) 
+plt.show()
